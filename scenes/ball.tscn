@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://xmmwgquk1ujw"]
+
+[ext_resource type="Script" path="res://scripts/ball.gd" id="1_r7y13"]
+[ext_resource type="PackedScene" uid="uid://byt4cll1bywnn" path="res://scenes/circule.tscn" id="2_mv3s2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ywfat"]
+radius = 8.0
+
+[node name="Ball" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_r7y13")
+
+[node name="Circule" parent="." instance=ExtResource("2_mv3s2")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ywfat")

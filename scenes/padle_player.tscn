@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkh8gsengvq2p"]
+
+[ext_resource type="Script" path="res://scripts/padle_player.gd" id="1_4lrc8"]
+
+[node name="PadlePlayer" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_4lrc8")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -64.0
+offset_top = -16.0
+offset_right = 64.0
+offset_bottom = 16.0
+color = Color(0, 1, 1, 1)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-64, 16, -64, -8, 0, -16, 0, -16, 64, -8, 64, 16)
