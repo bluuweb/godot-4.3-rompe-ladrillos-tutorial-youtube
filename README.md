@@ -14,4 +14,4 @@ Este es un sencillo juego de "Rompe Ladrillos" desarrollado en Godot 4.3, donde 
 
 Si quieres aprender a hacer este juego paso a paso, puedes ver el tutorial en YouTube:
 
-[![Tutorial de Rompe Ladrillos en Godot 4.3](https://youtu.be/3cXqVutCmUU)
+[Tutorial de Rompe Ladrillos en Godot 4.3](https://youtu.be/3cXqVutCmUU)
